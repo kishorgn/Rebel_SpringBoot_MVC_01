@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h2>Saved Person Details</h2>
-	${ p1 }
+	Result : ${ p1 }
 </body>
 </html>

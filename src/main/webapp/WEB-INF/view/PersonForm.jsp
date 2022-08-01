@@ -10,6 +10,8 @@
 <body>
 	<h2>Enter person details</h2>
 	
+	${ p1 }<br>
+	
 	<form:form action="regPerson" method="post" modelAttribute="person">
 		<form:label path="id">ID</form:label>
 		<form:input path="id"/><br><br>

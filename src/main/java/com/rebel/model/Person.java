@@ -1,6 +1,14 @@
 package com.rebel.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Person {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int id;
 	String name;
 	String email;
@@ -8,9 +16,8 @@ public class Person {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Person(int id, String name, String email) {
+	public Person(String name, String email) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.email = email;
 	}
