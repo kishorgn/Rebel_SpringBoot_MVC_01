@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" isELIgnored="false"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>home</title>
+<title>newPerson</title>
 </head>
 <body>
-	<h2>Welcome to Home page.</h2>
-	<a href="newPerson">New Person Registration</a><br><br>
+	<h2>Saved Person Details</h2>
+	${ p1 }
 </body>
 </html>
