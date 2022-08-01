@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h2>Welcome to Hello page</h2>
+	${ name }
 </body>
 </html>
