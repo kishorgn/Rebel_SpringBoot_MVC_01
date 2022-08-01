@@ -8,7 +8,6 @@
 </head>
 <body>
 	<h2>Welcome to Home page.</h2>
-	<a href="newPerson">New Person Registration</a><br><br>
 	<a href="listPersons">List all persons</a>
 </body>
 </html>

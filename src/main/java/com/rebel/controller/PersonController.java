@@ -28,7 +28,7 @@ public class PersonController {
 	
 	@RequestMapping("/regPerson")
 	public ModelAndView personRegistration(@ModelAttribute Person person) {
-		ModelAndView modelAndView = new ModelAndView("redirect:PersonForm");
+		ModelAndView modelAndView = new ModelAndView("redirect:listPersons");
 		personService.savePerson(person);
 		modelAndView.addObject("p1", "Person registered successfully with id : "+person.getId());
 		return modelAndView;

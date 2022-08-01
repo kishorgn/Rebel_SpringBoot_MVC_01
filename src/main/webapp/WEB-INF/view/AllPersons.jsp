@@ -9,7 +9,17 @@
 <title>allPersons</title>
 </head>
 <body>
-	<table>
+<a href="newPerson">New Person Registration</a><br><br>
+
+<%
+	if(request.getParameter("p1")!=null){
+		%>
+		<%= request.getParameter("p1") %>
+		<%
+	}
+%>
+
+	<table border="1">
 		<tr>
 			<th>ID</th>
 			<th>Name</th>

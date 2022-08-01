@@ -10,11 +10,9 @@
 <body>
 	<h2>Enter person details</h2>
 	
-	${ p1 }<br>
-	
 	<form:form action="regPerson" method="post" modelAttribute="person">
-		<form:label path="id">ID</form:label>
-		<form:input path="id"/><br><br>
+<%-- 		<form:label path="id">ID</form:label> --%>
+<%-- 		<form:input path="id"/><br><br> --%>
 		<form:label path="name">Name</form:label>
 		<form:input path="name"/><br><br>
 		<form:label path="email">Email</form:label>
